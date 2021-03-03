@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var prompt = require('stdin-prompt');
+var prompt = require('@thecoder08/prompt');
 var locationNumber = 0;
 var inventory = [];
 var locations = [
