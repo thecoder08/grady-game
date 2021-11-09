@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "A text-based adventure game made as a gift for my brother for his birthday.",
   "dependencies": {
-    "@thecoder08/prompt": "^1.0.2"
+    "@thecoder08/prompt": "thecoder08/prompt"
   },
   "bin": {
     "gradygame": "main.js"
