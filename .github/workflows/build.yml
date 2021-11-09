@@ -23,17 +23,17 @@ jobs:
       - name: Upload Windows build
         uses: actions/upload-artifact@v2
         with:
-          name: sea-of-monsters-win.exe
-          path: sea-of-monsters-win.exe
+          name: grady-game-win.exe
+          path: grady-game-win.exe
 
       - name: Upload Linux build
         uses: actions/upload-artifact@v2
         with:
-          name: sea-of-monsters-linux
-          path: sea-of-monsters-linux
+          name: grady-game-linux
+          path: grady-game-linux
 
       - name: Upload MacOS build
         uses: actions/upload-artifact@v2
         with:
-          name: sea-of-monsters-macos
-          path: sea-of-monsters-macos
+          name: grady-game-macos
+          path: grady-game-macos
